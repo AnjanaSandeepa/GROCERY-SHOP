@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>grocery shop</title>
+    <link rel="stylesheet" href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <!-- navigation bar -->
+    <div class="navbar">
+        <a href="#banner" class="right">Home</a>
+        <a href="#Service">Service</a>
+        <a href="#footer">Contact</a>
+        <a href="#about">About</a>
+    </div>
+
+    <!-- banner section -->
+    <div class="banner" id="banner">
+        <img src="image/banner.jpg" alt="banner image">
+        <div class="banner_text">
+            <div class="bannet_header">
+                <p>GROCERY SHOP</p>
+            </div>
+            <p>Best products best prices</p>
+        </div>
+    </div>
+
+    <!-- body section -->
+    <div class="row">
+        <div class="side">
+
+            <!-- obout section -->
+            <h1 id="about" style="margin-top: 80px; margin-bottom: 5px;">About Us</h1>
+            <p style="margin-top: 0; margin-bottom: 50px;">We provide you the best service</p>
+
+            <div class="row">
+                <div class="side" style="padding: 0; -ms-flex: 50%; flex: 50%;">
+                    <img src="image/about_us.jpg" alt="obout image" class="image">
+                </div>
+                <div class="side" style="padding: 0; -ms-flex: 50%; flex: 50%;">
+                    <p style="padding: 20px "> Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias tenetur
+                        voluptatem quod ut a enim quos et.
+                        Autem sed ratione eius amet quasi veritatis assumenda. Ducimus ad architecto adipisci sunt.Lorem
+                        ipsum dolor sit amet consectetur adipisicing elit. Alias tenetur voluptatem quod ut a enim quos
+                        et.
+                        Autem sed ratione eius amet quasi veritatis assumenda. Ducimus ad architecto adipisci sunt.</p>
+                </div>
+            </div>
+
+            <!-- ptoduct section -->
+            <h1 style="margin-top: 80px; margin-bottom: 5px;">OUR PRODUCT</h1>
+            <p style="margin-top: 0; margin-bottom: 50px;">We provide you with the best products</p>
+
+            <div class="row">
+                <div class="side" style="padding: 0; -ms-flex: 33%; flex: 33%;">
+                    <img src="image/vegitables.jpg" alt="vegitables image" class="image">
+                    <h3 style="margin-top: 5px; margin-bottom: 10px;">Vegitables</h3>
+                    <br>
+                </div>
+                <div class="side" style="padding: 0; -ms-flex: 33%; flex: 33%;">
+                    <img src="image/nuts.jpg" alt="nuts image" class="image">
+                    <h3 style="margin-top: 5px; margin-bottom: 10px;" >Nuts</h3>
+                    <br>
+                </div>
+                <div class="side" style="padding: 0; -ms-flex: 33%; flex: 33%;">
+                    <img src="image/fruits.jpg" alt="fruits image" class="image">
+                    <h3 style="margin-top: 5px; margin-bottom: 10px;">Fruits</h3>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="main">
+
+            <!-- price list section -->
+            <h1 style="margin-top: 80px; margin-bottom: 5px;">OUR PRICE LIST</h1>
+            <p style="margin-top: 0; margin-bottom: 50px;">Trending products list</p>
+            <div>
+                <table id="Table">
+                    <tr>
+                        <th colspan="2">Vegitables</th>
+                        <th colspan="2"> Nuts </th>
+                        <th colspan="2"> Fruits </th>
+                    </tr>
+                    <tr>
+                        <td colspan="1">Carrot</td>
+                        <td colspan="1">100</td>
+                        <td colspan="1">Almond</td>
+                        <td colspan="1">200</td>
+                        <td colspan="1">Apple</td>
+                        <td colspan="1">200</td>
+                    </tr>
+                    <tr>
+                        <td colspan="1">Cabbage</td>
+                        <td colspan="1">200</td>
+                        <td colspan="1">Kaju</td>
+                        <td colspan="1">300</td>
+                        <td colspan="1">Banana</td>
+                        <td colspan="1">200</td>
+                    </tr>
+                    <tr>
+                        <td colspan="1">Beetroot</td>
+                        <td colspan="1">300</td>
+                        <td colspan="1">Peanut</td>
+                        <td colspan="1">200</td>
+                        <td colspan="1">Orango</td>
+                        <td colspan="1">300</td>
+                    </tr>
+                    <tr>
+                        <td colspan="1">potato</td>
+                        <td colspan="1">200</td>
+                        <td colspan="1">Cocao</td>
+                        <td colspan="1">150</td>
+                        <td colspan="1">Mango</td>
+                        <td colspan="1">120</td>
+                    </tr>
+                    <tr>
+                        <td colspan="1">Pumpkin</td>
+                        <td colspan="1">100</td>
+                        <td colspan="1">Pecan</td>
+                        <td colspan="1">100</td>
+                        <td colspan="1">Papaya</td>
+                        <td colspan="1">100</td>
+                    </tr>
+                </table>
+            </div>
+
+            <!-- bill calculate section -->
+            <h1 style="margin-top: 80px; margin-bottom: 5px;">CALCULATE BILL</h1>
+            <p style="margin-top: 0; margin-bottom: 50px;">You can calculate your items bill</p>
+
+            <div class="row">
+
+                <div class="side" style="padding: 0; -ms-flex: 70%; flex: 70%;">
+                    <div class="cal_structure">
+                        <div class="calculator">
+
+                            <input type="text" name="screen" id="answer" readonly
+                                style=" margin-top: 10px; margin-left: 9px;">
+
+                            <table
+                                style="  margin-bottom: 20px; margin-top: 10px; margin-left: 15px; margin-right: 15px;">
+                                <tr>
+                                    <td><button>(</button></td>
+                                    <td><button>)</button></td>
+                                    <td><button
+                                            style="background-color: #f01600; font-weight: bold; color: #ecf0f1;">C</button>
+                                    </td>
+                                    <td><button>%</button></td>
+                                </tr>
+                                <tr>
+                                    <td><button>7</button></td>
+                                    <td><button>8</button></td>
+                                    <td><button>9</button></td>
+                                    <td><button>X</button></td>
+                                </tr>
+                                <tr>
+                                    <td><button>4</button></td>
+                                    <td><button>5</button></td>
+                                    <td><button>6</button></td>
+                                    <td><button>-</button></td>
+                                </tr>
+                                <tr>
+                                    <td><button>1</button></td>
+                                    <td><button>2</button></td>
+                                    <td><button>3</button></td>
+                                    <td><button>+</button></td>
+                                </tr>
+                                <tr>
+                                    <td><button>0</button></td>
+                                    <td><button style="font-weight: bold;">.</button></td>
+                                    <td><button>/</button></td>
+                                    <td><button
+                                            style="background-color: #25db72; font-weight: bold; color: #ecf0f1;">=</button>
+                                    </td>
+                                </tr>
+                            </table>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- grafic section -->
+                <div class="side" style="padding: 0; -ms-flex: 15%; flex: 15%; margin-top: 50px; margin-left: 30px;">
+                    <img class="jump" width="250" src="image/best_price.png" />
+                </div>
+
+            </div>
+
+
+            <!-- service section -->
+            <div id="Service" class="service">
+                <h1 style="margin-top: 80px; margin-bottom: 5px;">OUR SERVICES</h1>
+                <p style="margin-top: 0; margin-bottom: 50px;">We provide you with the best customer service</p>
+
+                <ul style="text-align: left; font-size:25px;">
+                    <li>Friendly customer service</li>
+                    <li>Online shopping</li>
+                    <li>Mobile payment</li>
+                    <li>Delivery service</li>
+                    <li>Online store</li>
+                </ul>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- footer section -->
+    <footer id="footer" class="footer-distributed">
+
+        <div class="footer-left">
+            <h3>GROCERY<span> Shop</span></h3>
+            <p class="footer-links">
+                <a href="#banner">Home</a>
+                <a href="#about">About</a>
+                <a href="#Service">Services</a>
+                <a href="#footer">Contact</a>
+            </p>
+            <p class="footer-name">GROCERY Shop© 2023</p>
+        </div>
+
+        <div class="footer-center">
+
+            <div>
+                <i class="fa fa-map-marker"></i>
+                <p>Colombo, Srilanka</p>
+            </div>
+
+            <div>
+                <i class="fa fa-phone"></i>
+                <p>+94 76543210</p>
+            </div>
+
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="mailto:grocery@shop.com">grocery@shop.com</a></p>
+            </div>
+
+        </div>
+
+        <div class="footer-right">
+
+            <p class="footer-about">
+                <span>About the company</span>
+                Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus
+                vehicula sit amet.
+            </p>
+
+            <div class="footer-icons">
+
+                <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+                <a href="http://www.twitter.com/"><i class="fa fa-twitter"></i></a>
+                <a href="http://www.linkedin.com/"><i class="fa fa-linkedin"></i></a>
+                <a href="http://www.github.com/"><i class="fa fa-github"></i></a>
+            </div>
+
+        </div>
+    </footer>
+
+</body>
+
+<script src="calculator.js"></script>
+
+</html>
